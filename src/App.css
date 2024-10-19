@@ -1,0 +1,198 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Light Theme Form Header */
+.form-header {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Light Theme Student Form */
+.student-form {
+  background: #fff;
+  padding: 20px;
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 10px;
+}
+
+.checkbox-group label {
+  font-weight: normal;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  background-color: #062dbae4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #218838;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9em;
+}
+
+/* Search Section */
+.search-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-input {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Table Styles */
+.student-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.student-table th {
+  background-color: #f8f9fa;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #062dbae4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #1e1e1e;
+  color: #cfcfcf;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.dark-theme .form-header {
+  color: #ffffff;
+}
+
+.dark-theme .student-form {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.dark-theme .form-group input[type="text"],
+.dark-theme .form-group input[type="email"],
+.dark-theme .search-input {
+  background-color: #3d3d3d;
+  color: #ffffff;
+  border: none;
+}
+
+.dark-theme .btn-submit {
+  background-color: #00aaff;
+}
+
+.dark-theme .btn-submit:hover {
+  background-color: #007acc;
+}
+
+.dark-theme .checkbox-group label {
+  color: #ffffff;
+}
+
+.dark-theme .error-text {
+  color: #ff4c4c;
+}
+
+.dark-theme .student-table {
+  border-color: #3d3d3d;
+}
+
+.dark-theme .student-table th {
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+.dark-theme .student-table tr:nth-child(even) {
+  background-color: #3d3d3d;
+}
+
+.dark-theme .pagination button {
+  background-color: #00aaff;
+}
+
+.dark-theme .pagination .active {
+  background-color: #ff4c4c;
+}
